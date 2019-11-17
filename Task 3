@@ -1,0 +1,5 @@
+class Task3
+  array1 = ["apple", "onion", "orange"]
+  array2 = ["apple", "onion", "orange", "Sugar"]
+  array1 & array2
+end
