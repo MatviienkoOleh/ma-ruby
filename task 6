@@ -1,0 +1,22 @@
+class Class
+  def sum(number, other)
+    number + other
+  end
+
+  def difference(number, other)
+    number - other
+  end
+
+  def multiplication(number, other)
+    number * other
+  end
+
+  def division(number, other)
+    number / other
+  end
+end
+calculator = Class.new
+puts calculator.sum(5, 10)
+puts calculator.difference(5, 10)
+puts calculator.multiplication(5, 10)
+puts calculator.division(5, 10)
