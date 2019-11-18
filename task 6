@@ -1,8 +1,8 @@
-class Class
+class Numbers
   def sum(number, other)
     number + other
   end
-
+  
   def difference(number, other)
     number - other
   end
@@ -15,7 +15,7 @@ class Class
     number / other
   end
 end
-calculator = Class.new
+calculator = Numbers.new
 puts calculator.sum(5, 10)
 puts calculator.difference(5, 10)
 puts calculator.multiplication(5, 10)
