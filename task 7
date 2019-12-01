@@ -1,0 +1,9 @@
+class New
+  def task
+    myArray = ["stuff", "widget", "ruby", "goodies", "java", "emerald", "etc" ]
+    item = myArray[rand(myArray.length)]
+    puts item
+  end
+  a = New.new
+  a.task
+end

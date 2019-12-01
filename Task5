@@ -1,0 +1,6 @@
+class Home
+     def initialize(color)
+         @color = color
+         end
+     end
+p Home.new(1).method(:initialize).source_location
